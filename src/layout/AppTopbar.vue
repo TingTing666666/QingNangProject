@@ -1,7 +1,7 @@
 <!--
  * @Date: 2024-09-02 05:59:14
  * @LastEditors: TingTing 110824020+TingTing666666@users.noreply.github.com
- * @LastEditTime: 2024-10-31 15:27:35
+ * @LastEditTime: 2025-04-13 03:53:35
  * @FilePath: \sakai-vue-master\sakai-vue-master\src\layout\AppTopbar.vue
 -->
 <script setup>
@@ -19,8 +19,8 @@ const { onMenuToggle, toggleDarkMode, isDarkTheme } = useLayout();
             </button>
             <router-link to="/" class="layout-topbar-logo">
                 <!-- 用img标签替换SVG -->
-                <img src="/aidlogo.jpg" alt="Logo" width="54" height="40"/>
-                <span>AID急救＆医疗系统</span>
+                <img src="/travellogo.png" alt="Logo" width="54" height="40"/>
+                <span>千面中国游数据库</span>
             </router-link>
             <!-- <button class="layout-menu-button layout-topbar-action" @click="onMenuToggle">
                 <i class="pi pi-bars"></i>
